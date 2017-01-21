@@ -1,0 +1,76 @@
+/* YOUR CUSTOM STYLES */
+
+.view {
+	background: url("https://scontent.xx.fbcdn.net/v/t31.0-8/12829389_1125370570848321_8506498745213717347_o.jpg?oh=9b8af801e93c099a7d071a54dfb128ec&oe=5923F411")no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+.full-bg-img {
+	color: #fff;
+}
+
+.title {
+	font-weight:100;
+}
+
+.payment .fa:not(:first-child) {
+	margin-left:10px;
+	color:rgba(255,255,255,.8);
+}
+
+.bg_pic {
+ margin-top: -90px;
+ position: relative;
+ height: 200px;
+}
+
+.camera_wrap {
+	display: none;
+	float: none;
+	position: relative;
+	z-index: 1;
+	margin: 0 !important;
+}
+
+.slider{
+	position: relative;
+    z-index:0;
+    top: 0;
+    margin-top:-230px;
+    z-index: 0;
+    margin-bottom: 48px;
+}
+
+.camera-caption {
+	position: absolute;
+	top:30%;
+    width: 100%;
+	display: block;
+    text-align:center;
+    padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+input[type="text"]:focus:not([readonly]) {
+	border-color:#C00;
+	box-shadow:0 1px 0 0 #C00;
+	color:#fff;
+}
+
+input[type="text"]:not([readonly])+label {
+	color:rgba(255,255,255,.65);
+}
+
+input[type="text"]:focus:not([readonly])+label {
+	color:#fff;
+}
